@@ -44,6 +44,7 @@ a {
 .first-section {
     display: flex;
     justify-content: space-around;
+    align-items: center;
     background-color: #1F2937;
     flex-wrap: nowrap;
     padding: 40px;
@@ -53,7 +54,7 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 14px;
+    padding: 70px;
 }
 
 .first-section-header {
@@ -68,7 +69,7 @@ a {
 }
 
 .button {
-    background-color: #269ded;
+    background-color: #3882F6;
     border: none;
     height: 25px;
     width: 90px;
@@ -80,10 +81,12 @@ a {
 
 .button:hover {
     cursor: pointer;
-    background-color: #3882F6;
+    background-color: #2d6bce;
 }
 
 .first-section img {
+    display: flex;
+    align-items: center;
     max-width: 400px;
     max-height: 200px;
 }
@@ -108,14 +111,14 @@ a {
 }
 
 .card {
-    margin: 30px;
+    margin: 20px;
 }
 
 .card img {
     height: 150px;
     width: 150px;
-    border: 4px #1d7cbb solid;
-    border-radius:5px;
+    border: 4px #3882F6 solid;
+    border-radius:8px;
 }
 
 .card-text {
@@ -157,6 +160,34 @@ a {
 
 .fourth-section {
     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fourth-section-content{
+    display: flex;
+    background-color: #3882F6;
+    padding: 38px 90px;
+    border-radius: 5px;
+    gap: 90px;
+    margin: 70px;
+}
+
+.fourth-section-text {
+    color:#E5E7EB;
+}
+
+.fourth-section-large-text {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.fourth-section-subtext {
+    font-size: 12px;
+}
+
+.fourth-section-content .button {
+    border: 2px solid white;
 }
 
 .footer {
